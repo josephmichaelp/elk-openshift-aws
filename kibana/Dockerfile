@@ -1,5 +1,5 @@
 # https://github.com/elastic/kibana-docker
-docker pull docker.elastic.co/kibana/kibana:7.0.0
+FROM docker.elastic.co/kibana/kibana:7.0.0
 
 RUN chmod 666 /usr/share/kibana/optimize/.babelcache.json
 
